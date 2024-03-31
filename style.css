@@ -3,3 +3,14 @@
 h1 {
   color: red;
 }
+
+img {
+  border: 1px solid black;
+}
+
+form {
+  background-color: blue;
+  padding: 20px;
+  border-radius: 5px;
+}
+
