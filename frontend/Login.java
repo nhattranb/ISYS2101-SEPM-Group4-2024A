@@ -18,10 +18,18 @@ public class Login extends JFrame implements ActionListener {
         String user = JOptionPane.showInputDialog(frame, "Email or phone");
         String password = JOptionPane.showInputDialog(frame, "Enter password");
         JPasswordField passwordField = new JPasswordField();
-        Object[] obj = {"Login", "Cancel"};
+
+        // login button: A blue rectangle
+        JButton btnLogin = new JButton();
+        btnLogin.setText("LOGIN");
 
         // button for register function
         Button btn = new Button("REGISTER NOW");
+
+        // phone number at the bottom
+        JLabel phone = new JLabel("Phone: 123-456-7890");
+        phone.setFont(new Font("Arial", Font.PLAIN, 12));
+        phone.setForeground(Color.gray);
     }
 
     public void setVisible(boolean b) {

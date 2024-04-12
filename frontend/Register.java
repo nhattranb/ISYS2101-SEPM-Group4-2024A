@@ -25,6 +25,11 @@ public class Register extends JFrame implements WindowListener, ActionListener {
 
         // button for login function
         Button btn = new Button("LOGIN NOW");
+
+        // phone number at the bottom
+        JLabel phone = new JLabel("Phone: 123-456-7890");
+        phone.setFont(new Font("Arial", Font.PLAIN, 12));
+        phone.setForeground(Color.gray);
     }
 
     public void actionPerformed(ActionEvent e) {
