@@ -1,3 +1,5 @@
+package com.example.isys2101.group4.backend;
+
 public class Admin {
     private int id;
     private int adminName;

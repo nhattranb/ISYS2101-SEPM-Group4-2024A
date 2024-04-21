@@ -1,3 +1,5 @@
+package com.example.isys2101.group4.backend;
+
 public class Login {
     private String username;
     private String password;

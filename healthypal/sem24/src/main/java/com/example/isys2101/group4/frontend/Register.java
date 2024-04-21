@@ -1,43 +1,47 @@
+package com.example.isys2101.group4.frontend;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.*;
 
-public class Menu extends JFrame implements WindowListener, ActionListener {
-    // Main menu
+public class Register extends JFrame implements WindowListener, ActionListener {
     public static void main(String[] args) {
-        // insert logo on the left of the screen
+        // insert png file
         ImageIcon icon = new ImageIcon("Logo.png");
         JLabel label = new JLabel(icon);
-
-        // align it to the left
-        label.setHorizontalAlignment(SwingConstants.LEFT);
         
-        // menu frame
         JFrame frame = new JFrame("Welcome !!!");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(300, 300);
         frame.setVisible(true);
 
-        // menu function
-        Object[] obj = {"Register", "Login"};
-        int option = JOptionPane.showOptionDialog(frame, "Choose one", "Menu", JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, null, obj, obj[0]);
+        // register function
+        String name = JOptionPane.showInputDialog(frame, "Name");
+        String user = JOptionPane.showInputDialog(frame, "Email or phone");
+        String password = JOptionPane.showInputDialog(frame, "Enter password");
+        JPasswordField passwordField = new JPasswordField();
+        String confirm = JOptionPane.showInputDialog(frame, "Confirm password");
+        JPasswordField confirmField = new JPasswordField();
+        Object[] obj = {"Register", "Cancel"};
 
-        // Extension Choice Menu
-        // membership button
-        Button btn = new Button("Membership");
+        // button for login function
+        Button btn = new Button("LOGIN NOW");
 
-        //
+        // phone number at the bottom
+        JLabel phone = new JLabel("Phone: 123-456-7890");
+        phone.setFont(new Font("Arial", Font.PLAIN, 12));
+        phone.setForeground(Color.gray);
     }
 
     public void actionPerformed(ActionEvent e) {
-        // Lead to the register page
+        // Lead to the menu
         if (e.getSource() instanceof Button) {
-            Register register = new Register();
-            ((JComponent) register.getContentPane()).setVisible(true);
+            Menu menu = new Menu();
+            ((JComponent) menu.getContentPane()).setVisible(true);
         }
 
-        // Lead to the login page
+        // Lead to the Login page
         if (e.getSource() instanceof Button) {
             Login login = new Login();
             login.setVisible(true);

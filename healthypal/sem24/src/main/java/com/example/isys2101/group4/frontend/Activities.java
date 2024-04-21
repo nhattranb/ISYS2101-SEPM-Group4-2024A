@@ -1,3 +1,5 @@
+package com.example.isys2101.group4.frontend;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;

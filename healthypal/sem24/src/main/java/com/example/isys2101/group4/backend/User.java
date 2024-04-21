@@ -1,3 +1,5 @@
+package com.example.isys2101.group4.backend;
+
 import java.util.Scanner;
 
 public class User {

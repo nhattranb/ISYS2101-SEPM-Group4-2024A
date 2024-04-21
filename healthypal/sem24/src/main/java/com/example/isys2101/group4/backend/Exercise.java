@@ -1,3 +1,5 @@
+package com.example.isys2101.group4.backend;
+
 public class Exercise {
     private int ID;
     private String name;
