@@ -1,6 +1,6 @@
 package t4.backend;
 
-public class Main {
+public class main {
     public static void main(String[] args) {
         System.out.println("MongoDB testing!");
 

@@ -1,11 +1,12 @@
-import com.mongodb.client.MongoDatabase; 
-import com.mongodb.MongoClient; 
-import com.mongodb.MongoCredential;
+package java.t4.backend;
 
-public class meal_select {
-    public static void select() {
-        System.out.println("Hello, World!");
+import com.mongodb.client.MongoClient;
+import com.mongodb.client.MongoClients;
+import com.mongodb.client.MongoCollection;
+import com.mongodb.client.MongoDatabase;
 
+public class database {
+    public static void DB() {
         // Connection string
         String url = "mongodb+srv://NhatMTran:ISYS2101s24a@healthypal.j81vjkh.mongodb.net/?retryWrites=true&w=majority&appName=HealthyPal";
 
@@ -13,9 +14,6 @@ public class meal_select {
         try (MongoClient mongoClient = MongoClients.create(url)) {
             // Connect to the database
             MongoDatabase database = mongoClient.getDatabase("healthypal");
-
-            // Connect to the collection
-            MongoCollection<Document> collection = database.getCollection("meal");
 
             // Select from the collection
             FindIterable<Document> iterDoc = collection.find();
