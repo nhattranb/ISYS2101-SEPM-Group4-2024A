@@ -16,4 +16,10 @@ public class bmi {
             return "Lose weight";
         }
     }
+
+    // to calculate calories add in
+    public static double calculateCalories(double weight, double height, int age) {
+        sgcal = 10 * weight + 6.25 * height - 5 * age;
+        return sgcal;
+    }
 }
