@@ -1,4 +1,4 @@
-package database.src.Backend.java.t4.backend;
+package java.t4.backend;
 
 public class exercise_select {
     public static void select() {
@@ -11,6 +11,9 @@ public class exercise_select {
         // Select from the Exercise table
         MongoCollection<Document> collection = database.getCollection("Exercise");
         FindIterable<Document> iterDoc = collection.find();
+
+        // add new document
+        Document document = new Document();
     }
 
     public static void main(String[] args) {

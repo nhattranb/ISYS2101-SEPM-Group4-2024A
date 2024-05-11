@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "932228718073",
+    "project_id": "healthypal-96bf7",
+    "storage_bucket": "healthypal-96bf7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932228718073:android:ef6a6d413bcf4330c9b128",
+        "android_client_info": {
+          "package_name": "t4.UI"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE91RFWmTWAJSNBOmnzMlz51x5cjjFmB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

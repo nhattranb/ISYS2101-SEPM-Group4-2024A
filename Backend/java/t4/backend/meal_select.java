@@ -3,7 +3,7 @@ import com.mongodb.MongoClient;
 import com.mongodb.MongoCredential;
 
 public class meal_select {
-    public static void main(String[] args) {
+    public static void select() {
         System.out.println("Hello, World!");
 
         // connect to a MongoDB database

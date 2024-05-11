@@ -1,4 +1,9 @@
-package database.src.Backend.java.t4.backend;
+package java.t4.backend;
+
+import com.mongodb.client.FindIterable;
+import com.mongodb.client.MongoClient; // Add this import statement
+import com.mongodb.client.MongoCollection;
+import com.mongodb.client.MongoDatabase;
 
 public class sides_select {
     public static void select() {
