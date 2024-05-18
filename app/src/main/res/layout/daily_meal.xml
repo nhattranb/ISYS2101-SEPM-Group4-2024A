@@ -1,0 +1,128 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+	<ScrollView android:id="@+id/daily_meal" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container"
+			android:layout_marginTop="-60dp"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+			<View   android:id="@+id/_bg__daily_meal"
+				android:background="@drawable/_bg__daily_meal_shape"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp"
+				android:layout_width="411dp"
+				android:layout_height="914dp" />
+
+			<TextView android:id="@+id/breakfast_meal"
+				android:fontFamily="Jua"
+				android:textSize="40sp"
+				android:textColor="@color/breakfast_meal_color"
+				android:layout_marginLeft="47dp"
+				android:layout_marginTop="144dp"
+				android:layout_width="322dp"
+				android:layout_height="89dp"
+				android:text="@string/breakfast_meal_string"
+				 />
+
+			<TextView android:id="@+id/lunch_meal"
+				android:fontFamily="Jua"
+				android:textSize="40sp"
+				android:textColor="@color/breakfast_meal_color"
+				android:layout_marginLeft="47dp"
+				android:layout_marginTop="351dp"
+				android:layout_width="328dp"
+				android:layout_height="77dp"
+				android:text="@string/lunch_meal_string"
+				 />
+
+			<TextView android:id="@+id/dinner_meal"
+				android:fontFamily="Jua"
+				android:textSize="40sp"
+				android:textColor="@color/breakfast_meal_color"
+				android:layout_marginLeft="47dp"
+				android:layout_marginTop="569dp"
+				android:layout_width="271dp"
+				android:layout_height="78dp"
+				android:text="@string/dinner_meal_string"
+				 />
+
+			<TextView android:id="@+id/next"
+				android:fontFamily="Jua"
+				android:textSize="20sp"
+				android:textColor="@color/_bg__daily_meal_color"
+				android:layout_marginLeft="189dp"
+				android:layout_marginTop="684dp"
+				android:layout_width="104dp"
+				android:layout_height="67dp"
+				android:text="@string/next_string"
+				 />
+
+			<ImageView android:id="@+id/_left_arrow"
+				android:src="@drawable/_left_arrow"
+				android:contentDescription="_left_arrow"
+				 android:layout_marginStart="47dp"
+				android:layout_marginTop="94dp"
+				android:layout_width="30dp"
+				android:layout_height="30dp" />
+
+			<ImageView android:id="@+id/image_2"
+				android:src="@drawable/image_2"
+				android:contentDescription="image_2"
+				 android:layout_marginStart="47dp"
+				android:layout_marginTop="400dp"
+				android:layout_width="252dp"
+				android:layout_height="157dp" />
+
+			<ImageView android:id="@+id/image_1"
+				android:src="@drawable/image_1"
+				android:contentDescription="image_1"
+				 android:layout_marginStart="49dp"
+				android:layout_marginTop="198dp"
+				android:layout_width="250dp"
+				android:layout_height="147dp" />
+
+			<ImageView android:id="@+id/image_3"
+				android:src="@drawable/image_3"
+				android:contentDescription="image_3"
+				 android:layout_marginStart="42dp"
+				android:layout_marginTop="644dp"
+				android:layout_width="327dp"
+				android:layout_height="190dp" />
+
+			<ImageView android:id="@+id/circle"
+				android:src="@drawable/circle"
+				android:contentDescription="circle"
+				 android:layout_marginStart="319dp"
+				android:layout_marginTop="73dp"
+				android:layout_width="75dp"
+				android:layout_height="75dp" />
+
+			<ImageView android:id="@+id/training"
+				android:src="@drawable/training"
+				android:contentDescription="training"
+				 android:layout_marginStart="339dp"
+				android:layout_marginTop="81dp"
+				android:layout_width="36dp"
+				android:layout_height="38dp" />
+
+			<TextView android:id="@+id/healthypal"
+				android:fontFamily="Jua"
+				android:layout_gravity="center_horizontal|center"
+				android:gravity="center"
+				android:textColor="@color/healthypal_color"
+				android:layout_marginLeft="319dp"
+				android:layout_marginTop="122dp"
+				android:layout_width="78dp"
+				android:layout_height="28dp"
+				android:text="@string/healthypal_string"
+				 />
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- dynamic_island from your XD file. -->
+<!-- _bg__user_page from your XD file. -->
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
 	android:shape="rectangle" >
-	<corners android:radius="20dp" />
-	<solid android:color="@color/extensions_color" />
+	<solid android:color="@color/_bg__user_page_color" />
 </shape>
 

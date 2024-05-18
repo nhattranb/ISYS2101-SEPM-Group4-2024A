@@ -63,16 +63,7 @@ import com.example.myapplication.R;
 		relieve_pain = (TextView) findViewById(R.id.relieve_pain);
 		rectangle_71_ek3 = (ImageView) findViewById(R.id.rectangle_71_ek3);
 		overall_fitness = (TextView) findViewById(R.id.overall_fitness);
-		vector_ek27 = (ImageView) findViewById(R.id.vector_ek27);
-		dynamic_island_ek3 = (View) findViewById(R.id.dynamic_island_ek3);
-		vector_ek28 = (ImageView) findViewById(R.id.vector_ek28);
-		vector_ek29 = (ImageView) findViewById(R.id.vector_ek29);
-		vector_ek30 = (ImageView) findViewById(R.id.vector_ek30);
-		vector_ek31 = (ImageView) findViewById(R.id.vector_ek31);
-		vector_ek32 = (ImageView) findViewById(R.id.vector_ek32);
-		vector_ek33 = (ImageView) findViewById(R.id.vector_ek33);
-		vector_ek34 = (ImageView) findViewById(R.id.vector_ek34);
-		vector_ek35 = (ImageView) findViewById(R.id.vector_ek35);
+
 		rectangle_ek1 = (View) findViewById(R.id.rectangle_ek1);
 	
 		

@@ -65,16 +65,6 @@ import com.example.myapplication.R;
 		start = (TextView) findViewById(R.id.start);
 		time_ek10 = (TextView) findViewById(R.id.time_ek10);
 		calories = (TextView) findViewById(R.id.calories);
-		vector_ek45 = (ImageView) findViewById(R.id.vector_ek45);
-		dynamic_island_ek5 = (View) findViewById(R.id.dynamic_island_ek5);
-		vector_ek46 = (ImageView) findViewById(R.id.vector_ek46);
-		vector_ek47 = (ImageView) findViewById(R.id.vector_ek47);
-		vector_ek48 = (ImageView) findViewById(R.id.vector_ek48);
-		vector_ek49 = (ImageView) findViewById(R.id.vector_ek49);
-		vector_ek50 = (ImageView) findViewById(R.id.vector_ek50);
-		vector_ek51 = (ImageView) findViewById(R.id.vector_ek51);
-		vector_ek52 = (ImageView) findViewById(R.id.vector_ek52);
-		vector_ek53 = (ImageView) findViewById(R.id.vector_ek53);
 		rectangle_ek3 = (View) findViewById(R.id.rectangle_ek3);
 	
 		

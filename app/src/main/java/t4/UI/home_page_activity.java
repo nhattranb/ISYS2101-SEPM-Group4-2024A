@@ -65,7 +65,7 @@ import com.example.myapplication.R;
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.home_page);
 
-		
+
 		_bg__home_page_ek2 = (View) findViewById(R.id._bg__home_page_ek2);
 		rectangle_14 = (ImageView) findViewById(R.id.rectangle_14);
 		rectangle_11 = (View) findViewById(R.id.rectangle_11);
@@ -98,17 +98,7 @@ import com.example.myapplication.R;
 		home_ek3 = (TextView) findViewById(R.id.home_ek3);
 		heath = (TextView) findViewById(R.id.heath);
 		activity = (TextView) findViewById(R.id.activity);
-		vector = (ImageView) findViewById(R.id.vector);
-		dynamic_island = (View) findViewById(R.id.dynamic_island);
-		vector_ek1 = (ImageView) findViewById(R.id.vector_ek1);
-		vector_ek2 = (ImageView) findViewById(R.id.vector_ek2);
-		vector_ek3 = (ImageView) findViewById(R.id.vector_ek3);
-		vector_ek4 = (ImageView) findViewById(R.id.vector_ek4);
-		vector_ek5 = (ImageView) findViewById(R.id.vector_ek5);
-		vector_ek6 = (ImageView) findViewById(R.id.vector_ek6);
-		vector_ek7 = (ImageView) findViewById(R.id.vector_ek7);
-		vector_ek8 = (ImageView) findViewById(R.id.vector_ek8);
-	
+
 		
 		_jogging.setOnClickListener(new View.OnClickListener() {
 		
@@ -116,12 +106,31 @@ import com.example.myapplication.R;
 				
 				Intent nextScreen = new Intent(getApplicationContext(), workout_activity.class);
 				startActivity(nextScreen);
-			
-		
+
+
 			}
 		});
-		
-		
+
+		heartbeat.setOnClickListener(new View.OnClickListener() {
+
+			public void onClick(View v) {
+
+				Intent nextScreen = new Intent(getApplicationContext(), bmi_output_activity.class);
+				startActivity(nextScreen);
+
+
+			}
+		});
+		rectangle_11.setOnClickListener(new View.OnClickListener() {
+
+			public void onClick(View v) {
+
+				Intent nextScreen = new Intent(getApplicationContext(), user_page_activity.class);
+				startActivity(nextScreen);
+
+
+			}
+		});
 		//custom code goes here
 	
 	}

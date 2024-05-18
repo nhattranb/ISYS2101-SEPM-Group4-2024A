@@ -81,16 +81,7 @@ import com.example.myapplication.R;
 		image_14 = (ImageView) findViewById(R.id.image_14);
 		image_15 = (ImageView) findViewById(R.id.image_15);
 		_image_16 = (ImageView) findViewById(R.id._image_16);
-		vector_ek18 = (ImageView) findViewById(R.id.vector_ek18);
-		dynamic_island_ek2 = (View) findViewById(R.id.dynamic_island_ek2);
-		vector_ek19 = (ImageView) findViewById(R.id.vector_ek19);
-		vector_ek20 = (ImageView) findViewById(R.id.vector_ek20);
-		vector_ek21 = (ImageView) findViewById(R.id.vector_ek21);
-		vector_ek22 = (ImageView) findViewById(R.id.vector_ek22);
-		vector_ek23 = (ImageView) findViewById(R.id.vector_ek23);
-		vector_ek24 = (ImageView) findViewById(R.id.vector_ek24);
-		vector_ek25 = (ImageView) findViewById(R.id.vector_ek25);
-		vector_ek26 = (ImageView) findViewById(R.id.vector_ek26);
+
 		rectangle = (View) findViewById(R.id.rectangle);
 	
 		

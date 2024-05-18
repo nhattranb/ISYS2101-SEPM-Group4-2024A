@@ -1,0 +1,188 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+	<ScrollView android:id="@+id/bmi_output" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container"
+			android:layout_marginTop="-60dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" >
+
+
+			<View   android:id="@+id/_bg__bmi_output"
+				android:background="@drawable/_bg__bmi_output_shape"
+				 android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp"
+				android:layout_width="411dp"
+				android:layout_height="914dp" />
+
+			<ImageView android:id="@+id/circle"
+				android:src="@drawable/circle"
+				android:contentDescription="circle"
+				 android:layout_marginStart="309dp"
+				android:layout_marginTop="92dp"
+				android:layout_width="75dp"
+				android:layout_height="75dp" />
+
+			<ImageView android:id="@+id/training"
+				android:src="@drawable/training"
+				android:contentDescription="training"
+				 android:layout_marginStart="329dp"
+				android:layout_marginTop="101dp"
+				android:layout_width="36dp"
+				android:layout_height="38dp" />
+
+			<TextView android:id="@+id/healthypal"
+				android:layout_gravity="center_horizontal|center"
+				android:gravity="center"
+				android:textColor="@color/healthypal_color"
+				android:layout_marginLeft="309dp"
+				android:layout_marginTop="139dp"
+				android:layout_width="78dp"
+				android:layout_height="28dp"
+				android:text="@string/healthypal_string"
+				 />
+
+			<TextView android:id="@+id/start_your_project"
+				android:textSize="40sp"
+				android:textColor="@color/start_your_project_color"
+				android:layout_marginLeft="44dp"
+				android:layout_marginTop="180dp"
+				android:layout_width="282dp"
+				android:layout_height="119dp"
+				android:text="@string/start_your_project_string"
+				 />
+
+			<TextView android:id="@+id/your_current_bmi___28"
+				android:textSize="20sp"
+				android:textColor="@color/start_your_project_color"
+				android:layout_marginLeft="46dp"
+				android:layout_marginTop="271dp"
+				android:layout_width="233dp"
+				android:layout_height="67dp"
+				android:text="@string/your_current_bmi___28_string"
+				 />
+
+			<TextView android:id="@+id/your_daily_calogies_in__1890"
+				android:textSize="20sp"
+				android:textColor="@color/start_your_project_color"
+				android:layout_marginLeft="46dp"
+				android:layout_marginTop="304dp"
+				android:layout_width="325dp"
+				android:layout_height="67dp"
+				android:text="@string/your_daily_calogies_in__1890_string"
+				 />
+
+			<TextView android:id="@+id/your_daily_calogies_out__2100"
+				android:textSize="20sp"
+				android:textColor="@color/start_your_project_color"
+				android:layout_marginLeft="44dp"
+				android:layout_marginTop="337dp"
+				android:layout_width="325dp"
+				android:layout_height="67dp"
+				android:text="@string/your_daily_calogies_out__2100_string"
+				 />
+
+			<TextView android:id="@+id/next"
+				android:textSize="20sp"
+				android:textColor="@color/_bg__bmi_output_color"
+				android:layout_marginLeft="189dp"
+				android:layout_marginTop="684dp"
+				android:layout_width="104dp"
+				android:layout_height="67dp"
+				android:text="@string/next_string"
+				 />
+
+			<ImageView android:id="@+id/_left_arrow"
+				android:src="@drawable/_left_arrow"
+				android:contentDescription="_left_arrow"
+				 android:layout_marginStart="52dp"
+				android:layout_marginTop="109dp"
+				android:layout_width="30dp"
+				android:layout_height="30dp" />
+
+
+			<RelativeLayout android:id="@+id/group_42"
+				android:layout_marginTop="737dp"
+				android:layout_marginStart="35dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+
+				<RelativeLayout android:id="@+id/button"
+					android:layout_marginTop="0dp"
+					android:layout_marginStart="0dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/rectangle_16"
+						android:background="@drawable/rectangle_16_shape"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="171dp"
+						android:layout_height="75dp" />
+
+					<TextView android:id="@+id/exercise_explore"
+						android:layout_gravity="center_horizontal|center"
+						android:gravity="center"
+						android:textSize="20sp"
+						android:textColor="@color/_bg__bmi_output_color"
+						android:layout_marginLeft="-3dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="186dp"
+						android:layout_height="84dp"
+						android:text="@string/exercise_explore_string"
+						 />
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+
+
+			<RelativeLayout android:id="@+id/group_43"
+				android:layout_marginTop="737dp"
+				android:layout_marginStart="213dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+
+				<RelativeLayout android:id="@+id/button_ek1"
+					android:layout_marginTop="0dp"
+					android:layout_marginStart="0dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/rectangle_16_ek1"
+						android:background="@drawable/rectangle_16_ek1_shape"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="171dp"
+						android:layout_height="75dp" />
+
+					<TextView android:id="@+id/meal_explore"
+						android:layout_gravity="center_horizontal|center"
+						android:gravity="center"
+						android:textSize="20sp"
+						android:textColor="@color/_bg__bmi_output_color"
+						android:layout_marginLeft="-3dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="186dp"
+						android:layout_height="84dp"
+						android:text="@string/meal_explore_string"
+						 />
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

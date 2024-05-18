@@ -70,16 +70,6 @@ import com.example.myapplication.R;
 		go = (TextView) findViewById(R.id.go);
 		rectangle_71_ek11 = (ImageView) findViewById(R.id.rectangle_71_ek11);
 		video_tutorial = (TextView) findViewById(R.id.video_tutorial);
-		vector_ek54 = (ImageView) findViewById(R.id.vector_ek54);
-		dynamic_island_ek6 = (View) findViewById(R.id.dynamic_island_ek6);
-		vector_ek55 = (ImageView) findViewById(R.id.vector_ek55);
-		vector_ek56 = (ImageView) findViewById(R.id.vector_ek56);
-		vector_ek57 = (ImageView) findViewById(R.id.vector_ek57);
-		vector_ek58 = (ImageView) findViewById(R.id.vector_ek58);
-		vector_ek59 = (ImageView) findViewById(R.id.vector_ek59);
-		vector_ek60 = (ImageView) findViewById(R.id.vector_ek60);
-		vector_ek61 = (ImageView) findViewById(R.id.vector_ek61);
-		vector_ek62 = (ImageView) findViewById(R.id.vector_ek62);
 		rectangle_ek4 = (View) findViewById(R.id.rectangle_ek4);
 	
 		

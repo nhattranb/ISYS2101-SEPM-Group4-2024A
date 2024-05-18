@@ -59,16 +59,7 @@ import com.example.myapplication.R;
 		a_jumping_jack__also_known_as_a_star_jump_and_called_a_side_straddle_hop_in_the_us_military__is_a_physical_jumping_exercise_performed_by_jumping_to_a_position_with_the_legs_spread_wide_and_the_hands_going_overhead__sometimes_in_a_clap__and_then_returning_to_a_position_with_the_feet_together_and_the_arms_at_the_sides_ = (TextView) findViewById(R.id.a_jumping_jack__also_known_as_a_star_jump_and_called_a_side_straddle_hop_in_the_us_military__is_a_physical_jumping_exercise_performed_by_jumping_to_a_position_with_the_legs_spread_wide_and_the_hands_going_overhead__sometimes_in_a_clap__and_then_returning_to_a_position_with_the_feet_together_and_the_arms_at_the_sides_);
 		image_21 = (ImageView) findViewById(R.id.image_21);
 		image_22 = (ImageView) findViewById(R.id.image_22);
-		vector_ek63 = (ImageView) findViewById(R.id.vector_ek63);
-		dynamic_island_ek7 = (View) findViewById(R.id.dynamic_island_ek7);
-		vector_ek64 = (ImageView) findViewById(R.id.vector_ek64);
-		vector_ek65 = (ImageView) findViewById(R.id.vector_ek65);
-		vector_ek66 = (ImageView) findViewById(R.id.vector_ek66);
-		vector_ek67 = (ImageView) findViewById(R.id.vector_ek67);
-		vector_ek68 = (ImageView) findViewById(R.id.vector_ek68);
-		vector_ek69 = (ImageView) findViewById(R.id.vector_ek69);
-		vector_ek70 = (ImageView) findViewById(R.id.vector_ek70);
-		vector_ek71 = (ImageView) findViewById(R.id.vector_ek71);
+
 		rectangle_ek5 = (View) findViewById(R.id.rectangle_ek5);
 	
 		

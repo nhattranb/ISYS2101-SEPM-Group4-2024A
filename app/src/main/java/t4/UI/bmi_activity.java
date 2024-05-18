@@ -65,16 +65,7 @@ public class bmi_activity extends Activity {
 		sex = (TextView) findViewById(R.id.sex);
 		line_6_ek1 = (View) findViewById(R.id.line_6_ek1);
 		_left_arrow_ek1 = (ImageView) findViewById(R.id._left_arrow_ek1);
-		vector_ek81 = (ImageView) findViewById(R.id.vector_ek81);
-		dynamic_island_ek9 = (View) findViewById(R.id.dynamic_island_ek9);
-		vector_ek82 = (ImageView) findViewById(R.id.vector_ek82);
-		vector_ek83 = (ImageView) findViewById(R.id.vector_ek83);
-		vector_ek84 = (ImageView) findViewById(R.id.vector_ek84);
-		vector_ek85 = (ImageView) findViewById(R.id.vector_ek85);
-		vector_ek86 = (ImageView) findViewById(R.id.vector_ek86);
-		vector_ek87 = (ImageView) findViewById(R.id.vector_ek87);
-		vector_ek88 = (ImageView) findViewById(R.id.vector_ek88);
-		vector_ek89 = (ImageView) findViewById(R.id.vector_ek89);
+
 	
 		
 		_rectangle_16_ek1.setOnClickListener(new View.OnClickListener() {

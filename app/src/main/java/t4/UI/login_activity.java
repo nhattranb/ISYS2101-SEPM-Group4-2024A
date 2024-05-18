@@ -15,7 +15,7 @@ import com.example.myapplication.R;
 
 	public class login_activity extends Activity {
 
-	
+
 	private View _bg__login_ek2;
 	private View _rectangle_15;
 	private TextView welcome_____;
@@ -44,6 +44,7 @@ import com.example.myapplication.R;
 	private ImageView vector_ek15;
 	private ImageView vector_ek16;
 	private ImageView vector_ek17;
+	private View dynamic_island;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -70,16 +71,7 @@ import com.example.myapplication.R;
 		training_ek2 = (ImageView) findViewById(R.id.training_ek2);
 		healthypal_ek3 = (TextView) findViewById(R.id.healthypal_ek3);
 		_1900_1111 = (TextView) findViewById(R.id._1900_1111);
-		vector_ek9 = (ImageView) findViewById(R.id.vector_ek9);
-		dynamic_island_ek1 = (View) findViewById(R.id.dynamic_island_ek1);
-		vector_ek10 = (ImageView) findViewById(R.id.vector_ek10);
-		vector_ek11 = (ImageView) findViewById(R.id.vector_ek11);
-		vector_ek12 = (ImageView) findViewById(R.id.vector_ek12);
-		vector_ek13 = (ImageView) findViewById(R.id.vector_ek13);
-		vector_ek14 = (ImageView) findViewById(R.id.vector_ek14);
-		vector_ek15 = (ImageView) findViewById(R.id.vector_ek15);
-		vector_ek16 = (ImageView) findViewById(R.id.vector_ek16);
-		vector_ek17 = (ImageView) findViewById(R.id.vector_ek17);
+
 	
 		
 		_rectangle_15.setOnClickListener(new View.OnClickListener() {

@@ -20,4 +20,20 @@
 	<color name="extensions_color">#000000</color>
 	<color name="line_1_color">#D9D9D9</color>
 	<color name="ellipse_2_color">#575757</color>
+	<color name="_bg__bmi_output_color">#FFFFFF</color>
+	<color name="start_your_project_color">#000000</color>
+	<color name="rectangle_16_color">#89CFF0</color>
+	<color name="_bg__user_page_color">#FFFFFF</color>
+	<color name="current_bmi___28_color">#000000</color>
+	<color name="_bg__home_page_color">#FFFFFF</color>
+	<color name="_rectangle_11_color">#89CFF0</color>
+	<color name="_bg__daily_meal_color">#FFFFFF</color>
+	<color name="breakfast_meal_color">#000000</color>
+	<color name="_bg__ex_explore_color">#FFFFFF</color>
+	<color name="_healthypal_color">#0D0D0D</color>
+	<color name="your_meal_today___color">#000000</color>
+
+
+
 </resources>
+

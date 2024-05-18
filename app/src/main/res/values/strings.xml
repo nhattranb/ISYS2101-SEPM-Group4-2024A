@@ -3,7 +3,7 @@
 	<!-- home_page strings -->
 
 	<string name="app_name">Page 1</string>
-	<string name="ek_img_content">ExportKit Image</string>
+<!--	<string name="ek_img_content">ExportKit Image</string>-->
 	<string name="exp__12_12_2024_string">Exp: 12/12/2024</string>
 	<string name="floyd_nguyen_string">Floyd Nguyen</string>
 	<string name="id__503882_string">ID: 503882</string>
@@ -124,4 +124,27 @@
 	<string name="register_string">Register</string>
 	<string name="age_string">Age</string>
 	<string name="sex_string">Sex</string>
+	<string name="current_bmi___28_string">Current BMI : 28</string>
+	<string name="last_updated_string">LAST UPDATED</string>
+	<string name="daily_calogies_in__1890_string">Daily calogies in: 1890</string>
+	<string name="daily_calogies_out__2100_string">Daily calogies out: 2100</string>
+	<string name="update_your_bmi_string">Update your BMI</string>
+	<string name="share_the_app_string">Share the App</string>
+	<string name="start_your_project_string">Start your Project</string>
+	<string name="your_current_bmi___28_string">Your current BMI : 28</string>
+	<string name="your_daily_calogies_in__1890_string">Your daily calogies in: 1890</string>
+	<string name="your_daily_calogies_out__2100_string">Your daily calogies out: 2100</string>
+	<string name="exercise_explore_string">ExerciseExplore</string>
+	<string name="meal_explore_string">Meal Explore</string>
+
+
+	<string name="breakfast_meal_string">Breakfast meal</string>
+	<string name="lunch_meal_string">Lunch meal</string>
+	<string name="dinner_meal_string">Dinner meal</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="_healthypal_string">HealthyPal</string>
+	<string name="your_meal_today___string">Your meal today !</string>
+	<string name="start_your_workout_string">Start your workout</string>
+
+
 </resources>

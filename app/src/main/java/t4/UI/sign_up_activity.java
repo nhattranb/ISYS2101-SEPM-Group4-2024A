@@ -66,16 +66,7 @@ import com.example.myapplication.R;
 		confirm_password = (TextView) findViewById(R.id.confirm_password);
 		line_6 = (View) findViewById(R.id.line_6);
 		_left_arrow = (ImageView) findViewById(R.id._left_arrow);
-		vector_ek72 = (ImageView) findViewById(R.id.vector_ek72);
-		dynamic_island_ek8 = (View) findViewById(R.id.dynamic_island_ek8);
-		vector_ek73 = (ImageView) findViewById(R.id.vector_ek73);
-		vector_ek74 = (ImageView) findViewById(R.id.vector_ek74);
-		vector_ek75 = (ImageView) findViewById(R.id.vector_ek75);
-		vector_ek76 = (ImageView) findViewById(R.id.vector_ek76);
-		vector_ek77 = (ImageView) findViewById(R.id.vector_ek77);
-		vector_ek78 = (ImageView) findViewById(R.id.vector_ek78);
-		vector_ek79 = (ImageView) findViewById(R.id.vector_ek79);
-		vector_ek80 = (ImageView) findViewById(R.id.vector_ek80);
+
 	
 		
 		_rectangle_16.setOnClickListener(new View.OnClickListener() {
